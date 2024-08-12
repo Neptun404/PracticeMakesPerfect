@@ -1,7 +1,5 @@
-
-
 // Instructions:
-// In the terminal run these commands: npm dev
+// In the terminal run these commands: npm run dev
 // 1. To import functions from part_1.ts or part_2.ts, you can do so by following these steps:
 // 2. Import the specific functions you want to use from the file. To do this, use the following syntax:
 //    import { functionName } from './relativePathToFile';
@@ -13,4 +11,3 @@
 //    To run every test, you can use the following command: npm run test 
 //    To run only tests for part_1, you can use the following command: npm run test part_1
 //    To run only tests for part_2, you can use the following command: npm run test part_2
-
