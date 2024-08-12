@@ -3,9 +3,13 @@
 // Example:
 // square(4) // Output: 16
 
-export function square(number) {
 
+export function square(number) {
+ return number * number;
+
+ 
 }
+
 
 // Exercise 2:
 // Write a function that takes 2 numbers and returns their sum
@@ -13,6 +17,7 @@ export function square(number) {
 // sum(2, 3) // Output: 5
 
 export function sum(number1, number2) {
+    return number1 + number2;
 }
 
 // Exercise 3:
@@ -20,7 +25,7 @@ export function sum(number1, number2) {
 // Example:
 // double(5); // Output: 10
 export function double(number) {
-
+return number + number;
 }
 
 
@@ -30,7 +35,7 @@ export function double(number) {
 // getStringLength("Hello World") // Output: 11
 // 
 export function getStringLength(string) {
-
+    return string.length;
 }
 
 
@@ -40,7 +45,7 @@ export function getStringLength(string) {
 // concatenate("Hello", "World") // returns "HelloWorld"
 // 
 export function concatenate(string1, string2) {
-
+return string1 + string2;
 }
 
 export default {
